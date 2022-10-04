@@ -1,0 +1,12 @@
+1) Qual comando é utilizado para visualizar a dimensão da base?
+dbidentificador.shape 
+
+
+2) Qual comando é utilizado para visualizar apenas as cinco primeiras linhas da base?
+novadb = dbidentificador.head(5)
+
+Com um database importada 'dbidentificador', criamos uma nova variavel e atribuimos a ela a database com o metodo head utilizando o parametro 5 
+
+3) O que faz o comando   df.describe()   ?
+
+O Pandas describe()é usado para visualizar alguns detalhes estatísticos básicos como percentil, média, padrão, etc. de um quadro de dados ou uma série de valores numéricos. Quando este método é aplicado a uma série de strings, ele retorna uma saída diferente
